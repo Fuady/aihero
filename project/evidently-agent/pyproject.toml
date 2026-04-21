@@ -1,0 +1,25 @@
+[project]
+name = "evidently-agent"
+version = "0.1.0"
+description = "AI Agent for Evidently AI documentation using Groq + text search"
+requires-python = ">=3.10"
+dependencies = [
+    "minsearch>=0.0.5",
+    "groq>=0.12.0",
+    "pydantic-ai[groq]>=1.0.0",
+    "python-frontmatter>=1.1.0",
+    "requests>=2.32.5",
+    "streamlit>=1.40.0",
+    "pandas>=2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.0.0",
+    "tqdm>=4.0.0",
+    "ipykernel>=6.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
