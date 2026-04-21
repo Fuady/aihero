@@ -1,0 +1,7 @@
+minsearch>=0.0.5
+groq>=0.12.0
+pydantic-ai[groq]>=1.0.0
+python-frontmatter>=1.1.0
+requests>=2.32.5
+streamlit>=1.40.0
+pandas>=2.0.0
