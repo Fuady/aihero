@@ -19,8 +19,6 @@ This project was built as part of a **7-Day AI Agents Crash Course**. It impleme
 
 > 💡 Think of it as a personal search engine for `evidentlyai/docs`, powered by Llama 3.3 70B via Groq's free API.
 
-**Live demo:** *(deploy to Streamlit Cloud and add your link here)*
-
 ---
 
 ## Screenshots
